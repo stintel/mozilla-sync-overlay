@@ -29,14 +29,14 @@ esac
 LICENSE="MPL-1.1"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="ldap memcached  mysql sqlite test +wsgi"
+IUSE="ldap memcached mysql sqlite test +wsgi"
 
 PYTHON_MODNAME="syncserver"
 
 RDEPEND="www-misc/mozilla-sync-server-reg[${PYTHON_USEDEP}]
 		 www-misc/mozilla-sync-server-storage[${PYTHON_USEDEP},ldap?,mysql?,sqlite?]
 		 wsgi? (
-		 	|| ( www-apache/mod_wsgi www-servers/uwsgi )
+		 	|| ( www-apache/mod_wsgi www-servers/uwsgi[python] )
 		 )"
 DEPEND="${RDEPEND}
 		dev-python/setuptools[${PYTHON_USEDEP}]"
