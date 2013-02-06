@@ -4,6 +4,10 @@
 
   06 Feb 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
   mozilla-sync-server-storage-1.15.2.ebuild:
+  Use REQUIRED_USE for ldap/memcached/mysql/sqlite.
+
+  06 Feb 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
+  mozilla-sync-server-storage-1.15.2.ebuild:
   Add PYTHON_MODNAME.
 
 *mozilla-sync-server-storage-1.15.2 (06 Feb 2013)
