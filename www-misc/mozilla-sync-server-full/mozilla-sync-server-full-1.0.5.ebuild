@@ -52,8 +52,6 @@ src_install() {
 
 	keepdir /etc/mozilla-sync-server
 	insinto /etc/mozilla-sync-server
-	doins *.ini
-	doins etc/*
 	use ldap && (
 		doins etc/ldap.conf
 		newins tests_ldap.ini ldap.ini
