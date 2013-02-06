@@ -4,6 +4,10 @@
 
   06 Feb 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
   mozilla-sync-server-full-1.0.5.ebuild:
+  Use REQUIRED_USE for ldap/memcached/mysql/sqlite.
+
+  06 Feb 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
+  mozilla-sync-server-full-1.0.5.ebuild:
   Add python USE flag dependency on www-servers/uwsgi.
 
 *mozilla-sync-server-full-1.0.5 (06 Feb 2013)

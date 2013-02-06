@@ -31,6 +31,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="ldap memcached mysql sqlite test +wsgi"
 
+REQUIRED_USE="|| ( ldap memcached mysql sqlite )"
+
 PYTHON_MODNAME="syncserver"
 
 RDEPEND="www-misc/mozilla-sync-server-reg[${PYTHON_USEDEP}]
