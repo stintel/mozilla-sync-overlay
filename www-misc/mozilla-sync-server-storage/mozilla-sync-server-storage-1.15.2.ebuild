@@ -31,6 +31,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="ldap memcached mysql sqlite test"
 
+PYTHON_MODNAME="syncstorage"
+
 RDEPEND=">=dev-python/metlog-py-0.1[${PYTHON_USEDEP}]
 		 >=dev-python/paste-1.7.5.1
 		 >=dev-python/pastedeploy-1.5.0
