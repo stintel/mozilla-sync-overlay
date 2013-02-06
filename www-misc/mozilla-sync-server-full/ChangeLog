@@ -4,6 +4,10 @@
 
   06 Feb 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
   mozilla-sync-server-full-1.0.5.ebuild:
+  Remove test from IUSE.
+
+  06 Feb 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
+  mozilla-sync-server-full-1.0.5.ebuild:
   Don't install all config files unconditionally.
 
   06 Feb 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>

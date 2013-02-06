@@ -29,7 +29,7 @@ esac
 LICENSE="MPL-1.1"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="ldap memcached mysql sqlite test +wsgi"
+IUSE="ldap memcached mysql sqlite +wsgi"
 
 REQUIRED_USE="|| ( ldap memcached mysql sqlite )"
 
