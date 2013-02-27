@@ -31,8 +31,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
-PYTHON_MODNAME="syncreg"
-
 RDEPEND=">=dev-python/beaker-1.6.4
 		 >=dev-python/cef-0.5[${PYTHON_USEDEP}]
 		 >=dev-python/mako-0.7.2
