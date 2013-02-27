@@ -2,6 +2,10 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Feb 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
+  zope-deprecation-4.0.2.ebuild:
+  Drop empty IUSE.
+
 *zope-deprecation-4.0.2 (06 Feb 2013)
 
   06 Feb 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
