@@ -14,7 +14,6 @@ SRC_URI="mirror://pypi/r/${PN}/${P}.tar.gz"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
 
 RDEPEND="dev-python/pycrypto"
 DEPEND="${RDEPEND}
