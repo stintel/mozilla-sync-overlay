@@ -30,8 +30,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
-PYTHON_MODNAME="services"
-
 # Test require LDAP populated with mozilla data on ldap://localhost
 RESTRICT="test"
 
