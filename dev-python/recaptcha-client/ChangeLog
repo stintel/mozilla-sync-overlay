@@ -4,6 +4,10 @@
 
   27 Feb 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
   recaptcha-client-1.0.6.ebuild:
+  Drop PYTHON_MODNAME, it's not used in distutils-r1.
+
+  27 Feb 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
+  recaptcha-client-1.0.6.ebuild:
   Drop empty IUSE.
 
 *recaptcha-client-1.0.6 (06 Feb 2013)

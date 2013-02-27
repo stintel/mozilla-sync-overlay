@@ -18,5 +18,3 @@ KEYWORDS="~amd64 ~x86"
 RDEPEND="dev-python/pycrypto"
 DEPEND="${RDEPEND}
 		dev-python/setuptools[${PYTHON_USEDEP}]"
-
-PYTHON_MODNAME=recaptcha
