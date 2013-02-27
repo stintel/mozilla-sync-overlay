@@ -15,6 +15,6 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-RDEPEND="dev-python/pycrypto"
+RDEPEND="dev-python/pycrypto[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
 		dev-python/setuptools[${PYTHON_USEDEP}]"
