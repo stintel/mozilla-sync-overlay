@@ -33,8 +33,6 @@ IUSE="ldap memcached mysql sqlite +wsgi"
 
 REQUIRED_USE="|| ( ldap memcached mysql sqlite )"
 
-PYTHON_MODNAME="syncserver"
-
 RDEPEND="www-misc/mozilla-sync-server-reg[${PYTHON_USEDEP}]
 		 www-misc/mozilla-sync-server-storage[${PYTHON_USEDEP},ldap?,mysql?,sqlite?]
 		 wsgi? (
