@@ -23,4 +23,3 @@ DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 S="${WORKDIR}/${MY_P}"
 
 DOCS="CHANGES.txt"
-PYTHON_MODNAME="${PN/-//}"

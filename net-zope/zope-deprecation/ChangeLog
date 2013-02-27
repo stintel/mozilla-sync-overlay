@@ -4,6 +4,10 @@
 
   27 Feb 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
   zope-deprecation-4.0.2.ebuild:
+  Drop PYTHON_MODNAME, it's not used in distutils-r1.
+
+  27 Feb 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
+  zope-deprecation-4.0.2.ebuild:
   Drop empty IUSE.
 
 *zope-deprecation-4.0.2 (06 Feb 2013)
