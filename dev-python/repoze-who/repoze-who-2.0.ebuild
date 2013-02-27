@@ -27,9 +27,6 @@ DEPEND="${RDEPEND}
 		test? ( dev-python/nose[${PYTHON_USEDEP}] )
 		dev-python/setuptools[${PYTHON_USEDEP}]"
 
-
-PYTHON_MODNAME="${PN/-//}"
-
 python_test() {
 		nosetests || die "Tests fail with ${EPYTHON}"
 }
