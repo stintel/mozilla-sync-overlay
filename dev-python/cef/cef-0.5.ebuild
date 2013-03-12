@@ -18,5 +18,5 @@ KEYWORDS="~amd64 ~x86"
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 
 python_test() {
-	"${EPYTHON}" "test_${PN}.py" || die "Tests fail with ${EPYTHON}"
+	"${PYTHON}" "test_${PN}.py" || die "Tests fail with ${PYTHON}"
 }
