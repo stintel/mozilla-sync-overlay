@@ -4,6 +4,10 @@
 
   15 Mar 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
   docopt-0.6.1.ebuild:
+  Add IUSE="examples" and install examples.
+
+  15 Mar 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
+  docopt-0.6.1.ebuild:
   Update PYTHON_COMPAT after testing against implementations supported by the
   python-r1 suite.
 

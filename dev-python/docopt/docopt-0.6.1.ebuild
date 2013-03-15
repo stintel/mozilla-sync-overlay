@@ -14,5 +14,11 @@ SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
+IUSE="examples"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
+
+python_install_all() {
+	use examples && EXAMPLES=( examples/. )
+	distutils-r1_python_install_all
+}
