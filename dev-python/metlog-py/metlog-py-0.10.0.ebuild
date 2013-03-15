@@ -28,5 +28,5 @@ DEPEND="${RDEPEND}
 		dev-python/setuptools[${PYTHON_USEDEP}]"
 
 python_test() {
-	nosetests || die "Tests fail with ${EPYTHON}"
+	nosetests || die "Tests fail with ${PYTHON}"
 }
