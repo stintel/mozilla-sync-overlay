@@ -20,10 +20,8 @@ RDEPEND=">=dev-python/docopt-0.5[${PYTHON_USEDEP}]
 		 dev-python/pyzmq"
 DEPEND="${RDEPEND}
 		test? (
-			(
-				dev-python/mock[${PYTHON_USEDEP}]
-				dev-python/nose[${PYTHON_USEDEP}]
-			)
+			dev-python/mock[${PYTHON_USEDEP}]
+			dev-python/nose[${PYTHON_USEDEP}]
 		)
 		dev-python/setuptools[${PYTHON_USEDEP}]"
 
