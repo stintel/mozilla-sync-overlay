@@ -4,6 +4,10 @@
 
   15 Mar 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
   cef-0.5.ebuild:
+  Add missing IUSE="test".
+
+  15 Mar 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
+  cef-0.5.ebuild:
   Update PYTHON_COMPAT after testing against implementations supported by the
   python-r1 suite.
 
