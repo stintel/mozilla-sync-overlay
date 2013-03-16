@@ -21,8 +21,8 @@ IUSE="test"
 
 S=${WORKDIR}/${MY_P}
 
-RDEPEND="dev-python/paste
-		 net-zope/zope-interface"
+RDEPEND="dev-python/paste[${PYTHON_USEDEP}]
+		 net-zope/zope-interface[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
 		test? ( dev-python/nose[${PYTHON_USEDEP}] )
 		dev-python/setuptools[${PYTHON_USEDEP}]"

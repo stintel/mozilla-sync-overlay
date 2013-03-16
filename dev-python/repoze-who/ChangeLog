@@ -4,6 +4,10 @@
 
   16 Mar 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
   repoze-who-2.0.ebuild:
+  Add PYTHON_USEDEP to dependencies.
+
+  16 Mar 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
+  repoze-who-2.0.ebuild:
   Substitute EPYTHON with PYTHON in python_test().
 
   27 Feb 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
