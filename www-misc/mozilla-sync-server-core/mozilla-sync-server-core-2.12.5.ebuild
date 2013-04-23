@@ -52,7 +52,7 @@ DEPEND="${RDEPEND}
 		test? ( dev-python/nose[${PYTHON_USEDEP}] )
 		dev-python/setuptools[${PYTHON_USEDEP}]"
 
-PATCHES=( files/${P}_wsgiproxy2.patch )
+PATCHES=( ${FILESDIR}/${P}_wsgiproxy2.patch )
 
 python_test() {
 	nosetests || die "Tests fail with ${EPYTHON}"

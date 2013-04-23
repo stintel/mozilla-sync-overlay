@@ -3,6 +3,10 @@
 # $Header: $
 
   23 Apr 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
+  mozilla-sync-server-core-2.12.5.ebuild:
+  Fix patch path.
+
+  23 Apr 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
   mozilla-sync-server-core-2.12.5.ebuild,
   +files/mozilla-sync-server-core-2.12.5_wsgiproxy2.patch:
   Use dev-python/wsgiproxy2.
