@@ -45,12 +45,14 @@ RDEPEND=">=dev-python/metlog-cef-0.2[${PYTHON_USEDEP}]
 		 >=dev-python/simplejson-2.6.2
 		 >=dev-python/sqlalchemy-0.7.9
 		 >=dev-python/webob-1.0.7
-		 >=dev-python/wsgiproxy-0.2.2[${PYTHON_USEDEP}]
+		 >=dev-python/wsgiproxy2-0.1[${PYTHON_USEDEP}]
 		 >=net-zope/zope-deprecation-4.0[${PYTHON_USEDEP}]
 		 >=net-zope/zope-interface-4.0.1"
 DEPEND="${RDEPEND}
 		test? ( dev-python/nose[${PYTHON_USEDEP}] )
 		dev-python/setuptools[${PYTHON_USEDEP}]"
+
+PATCHES=( files/${P}_wsgiproxy2.patch )
 
 python_test() {
 	nosetests || die "Tests fail with ${EPYTHON}"
