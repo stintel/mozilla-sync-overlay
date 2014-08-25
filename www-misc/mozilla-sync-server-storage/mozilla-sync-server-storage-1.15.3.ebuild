@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -38,7 +38,10 @@ RDEPEND=">=dev-python/metlog-py-0.1[${PYTHON_USEDEP}]
 		 >=dev-python/pastedeploy-1.5.0
 		 ldap? ( dev-python/python-ldap )
 		 memcached? ( >=dev-python/python-memcached-1.48 )
-		 mysql? ( >=dev-python/sqlalchemy-0.7.9[mysql] )
+		 mysql? (
+		 	dev-python/mysql-python
+		 	>=dev-python/sqlalchemy-0.7.9
+		 )
 		 sqlite? ( >=dev-python/sqlalchemy-0.7.9[sqlite] )
 		 www-misc/mozilla-sync-server-core[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
