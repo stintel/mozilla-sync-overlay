@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -46,7 +46,7 @@ RDEPEND=">=dev-python/metlog-cef-0.2[${PYTHON_USEDEP}]
 		 >=dev-python/sqlalchemy-0.7.9
 		 >=dev-python/webob-1.0.7
 		 >=dev-python/wsgiproxy2-0.1[${PYTHON_USEDEP}]
-		 >=net-zope/zope-deprecation-4.0[${PYTHON_USEDEP}]
+		 >=dev-python/zope-deprecation-4.0[${PYTHON_USEDEP}]
 		 >=net-zope/zope-interface-4.0.1"
 DEPEND="${RDEPEND}
 		test? ( dev-python/nose[${PYTHON_USEDEP}] )

@@ -1,6 +1,10 @@
 # ChangeLog for www-misc/mozilla-sync-server-core
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  04 Mar 2015; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
+  mozilla-sync-server-core-2.12.5.ebuild:
+  Rename net-zope/zope-deprecation to dev-python/zope-deprecation.
 
   23 Apr 2013; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
   mozilla-sync-server-core-2.12.5.ebuild:
