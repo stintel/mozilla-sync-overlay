@@ -4,6 +4,10 @@
 
   04 Mar 2015; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
   mozilla-sync-server-core-2.12.5.ebuild:
+  Add PYTHON_USEDEP to dependencies.
+
+  04 Mar 2015; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>
+  mozilla-sync-server-core-2.12.5.ebuild:
   Rename net-zope/zope-interface to dev-python/zope-interface.
 
   04 Mar 2015; Stijn Tintel (stintel) <stijn+gentoo@linux-ipv6.be>

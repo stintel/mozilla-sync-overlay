@@ -35,19 +35,19 @@ RESTRICT="test"
 
 RDEPEND=">=dev-python/metlog-cef-0.2[${PYTHON_USEDEP}]
 		 >=dev-python/metlog-py-0.9.8[${PYTHON_USEDEP}]
-		 >=dev-python/paste-1.7.5.1
-		 >=dev-python/pastedeploy-1.5.0
-		 >=dev-python/pastescript-1.7.5
+		 >=dev-python/paste-1.7.5.1[${PYTHON_USEDEP}]
+		 >=dev-python/pastedeploy-1.5.0[${PYTHON_USEDEP}]
+		 >=dev-python/pastescript-1.7.5[${PYTHON_USEDEP}]
 		 >=dev-python/recaptcha-client-1.0.6[${PYTHON_USEDEP}]
-		 >=dev-python/repoze-lru-0.6
+		 >=dev-python/repoze-lru-0.6[${PYTHON_USEDEP}]
 		 >=dev-python/repoze-who-2.0[${PYTHON_USEDEP}]
-		 >=dev-python/routes-1.13
-		 >=dev-python/simplejson-2.6.2
-		 >=dev-python/sqlalchemy-0.7.9
-		 >=dev-python/webob-1.0.7
+		 >=dev-python/routes-1.13[${PYTHON_USEDEP}]
+		 >=dev-python/simplejson-2.6.2[${PYTHON_USEDEP}]
+		 >=dev-python/sqlalchemy-0.7.9[${PYTHON_USEDEP}]
+		 >=dev-python/webob-1.0.7[${PYTHON_USEDEP}]
 		 >=dev-python/wsgiproxy2-0.1[${PYTHON_USEDEP}]
 		 >=dev-python/zope-deprecation-4.0[${PYTHON_USEDEP}]
-		 >=dev-python/zope-interface-4.0.1"
+		 >=dev-python/zope-interface-4.0.1[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
 		test? ( dev-python/nose[${PYTHON_USEDEP}] )
 		dev-python/setuptools[${PYTHON_USEDEP}]"
