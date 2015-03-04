@@ -47,7 +47,7 @@ RDEPEND=">=dev-python/metlog-cef-0.2[${PYTHON_USEDEP}]
 		 >=dev-python/webob-1.0.7
 		 >=dev-python/wsgiproxy2-0.1[${PYTHON_USEDEP}]
 		 >=dev-python/zope-deprecation-4.0[${PYTHON_USEDEP}]
-		 >=net-zope/zope-interface-4.0.1"
+		 >=dev-python/zope-interface-4.0.1"
 DEPEND="${RDEPEND}
 		test? ( dev-python/nose[${PYTHON_USEDEP}] )
 		dev-python/setuptools[${PYTHON_USEDEP}]"
