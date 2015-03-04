@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -22,7 +22,7 @@ IUSE="test"
 S=${WORKDIR}/${MY_P}
 
 RDEPEND="dev-python/paste[${PYTHON_USEDEP}]
-		 net-zope/zope-interface[${PYTHON_USEDEP}]"
+		 dev-python/zope-interface[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
 		test? ( dev-python/nose[${PYTHON_USEDEP}] )
 		dev-python/setuptools[${PYTHON_USEDEP}]"
